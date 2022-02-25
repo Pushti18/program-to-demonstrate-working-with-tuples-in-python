@@ -1,0 +1,23 @@
+//06. Write a program to demonstrate working with tuples in python.
+a = (1, 'a' ,3.5 )
+print(a)
+b = 3,4,'abc'
+print(b)
+a ,b, c = b
+print(a)
+print(b)
+print(c)
+c = ('hello')
+print(type(a))
+print(type(b))
+print(type(c))
+d = ('p','u','s','h','t','i')
+print(d[0],d[1])
+print(d[5])
+e = ('1','e','4')
+print(e[::-2])
+f = (3 , 4)
+print(f[0]+f[1])
+print(f[0]-f[1])
+print(f[0]*f[1])
+print(f[0]/f[1])
